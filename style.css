@@ -1,0 +1,40 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#id1, #id2, #id3, #id4, #id5, #id6{
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    /* background-color: hotpink; */
+
+}
+.tick {
+    border: 4px solid black;
+}
+
+
+#btn, #reset {
+    visibility: hidden;
+}
+
+.bt {
+    background: #dab987;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 1.0em;
+    margin: 5px;
+}
